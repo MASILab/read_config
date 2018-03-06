@@ -33,7 +33,7 @@ ans =
 
   struct with fields:
 
-    test_string: ""
+    test_string: 'test'
        test_num: 1
      test_array: [3×3 double]
 ```
