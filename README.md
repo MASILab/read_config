@@ -1,15 +1,22 @@
-# read_data
-Function which reads a "data" file. This is 
+# read_config
+Very simple function which reads a config file. Config file must have the following format:
+```
+% comment
+name =
+array
+name = num
+name = string
+```
 
 # Installation instructions:
 ```
-git clone https://github.com/justinblaber/read_data.git
+git clone https://github.com/justinblaber/read_config.git
 ```
 Then, in MATLAB:
 ```
->> addpath('read_data');
+>> addpath('read_config');
 ```
-You can try it out by creating a "data" file, `test.conf`, containing:
+You can try it out by creating a test config file, `test.conf`, containing:
 ```
 test_string = string
 test_num = 1
@@ -20,7 +27,7 @@ test_array =
 ```
 And then reading it
 ```
->> read_data('test.txt')
+>> read_data('test.conf')
 
 ans = 
 
