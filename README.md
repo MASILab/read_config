@@ -27,7 +27,7 @@ test_array =
 ```
 And then reading it
 ```
->> read_data('test.conf')
+>> read_config('test.conf')
 
 ans = 
 
