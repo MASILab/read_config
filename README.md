@@ -18,7 +18,7 @@ Then, in MATLAB:
 ```
 You can try it out by creating a test config file, `test.conf`, containing:
 ```
-test_string = string
+test_string = test
 test_num = 1
 test_array = 
 1 2 3
